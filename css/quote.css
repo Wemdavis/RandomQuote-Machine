@@ -1,31 +1,46 @@
 body {
-  background-color: #000;
-  font-family: Arial, sans-serif;
-}
-#bg-video {
-  display: none;
-}
-#quote-box {
-  margin-top: 100px;
-  text-align: center;
-}
-#quote-box #new-quote {
-  border: none;
-  border-radius: 5px;
+  background-image: url("/videos/quote-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 2s ease;
   color: #fff;
-  cursor: pointer;
-  font-size: 56px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  @keyframes fadeIn {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 1;
+  }
+  }
+  #quote-box {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  }
+  #new-quote {
+  max-width: 100%;
+  word-wrap: break-word;
+  font-size: 36px;
   font-weight: bold;
   margin: 50px 0;
-  padding: 10px 20px;
-  transition: background-color 0.3s ease;
-}
-#quote-box #new-quote:hover {
-  background-color: #666;
-}
-#quote-box #quote-author {
+  padding-top: 50px;
+  }
+  #quote-author {
+  max-width: 100%;
+  word-wrap: break-word;
   font-size: 26px;
   font-style: italic;
-  color: #fff;
   margin-bottom: 50px;
-}/*# sourceMappingURL=quote.css.map */
+  }
+  #bg-video {
+  display: none;
+  }/*# sourceMappingURL=quote.css.map */
+
+

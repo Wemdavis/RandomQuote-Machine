@@ -22,7 +22,6 @@ function App() {
 
   return (
     <div id="quote-box">
-      <h1>Random Quote Generator</h1>
       <p id="new-quote">{quote.text}</p>
       <p id="quote-author">- {quote.author}</p>
     </div>
