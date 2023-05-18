@@ -1,17 +1,13 @@
 body {
   background-color: #F0F0F0;
   font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 #quote-box {
   background-color: #FFFFFF;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin:0 auto;
+  margin: 50px auto;
   max-width: 600px;
   padding: 30px;
   text-align: center;
@@ -57,4 +53,7 @@ a {
 
 a:hover {
   background-color: #0D75A7;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 0fbc5d3574968bef21e4e5ffe01a2cadd75cfdc2
