@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // Define a function to retrieve a random quote
+  // Defines a function to retrieve a random quote
   function fetchQuote() {
     $.ajax({
       url: 'https://api.quotable.io/random',
@@ -15,10 +15,10 @@ $(document).ready(function() {
     });
   }
 
-  // Call the fetchQuote function on document load to display an initial quote
+  // Calls the fetchQuote function on document load to display an initial quote
   fetchQuote();
 
-  // Set up a click event listener for the new-quote button
+  // Sets up a click event listener for the new-quote button
   $('#new-quote').on('click', function() {
     fetchQuote();
   });
